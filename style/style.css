@@ -1,0 +1,219 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --blue: #2094E6;
+  --darkgreen: #394D52;
+  --cream: #E3DEC1;
+  --lightgreen: #20B7B3;
+  --black: #121212;
+  --white: #FFFFFF;
+}
+
+
+h1{
+  font-family: 'Playfair Display';
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 66px;
+}
+
+h2{
+  font-family: 'Playfair Display';
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 61px;
+  margin-top: 0;
+}
+
+h3{
+  font-family: 'Playfair Display';
+  font-weight: 500;
+  margin-top: 0;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+p{
+  font-family: 'Work Sans';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.p-subtitle{
+  color: var(--blue);
+  font-family: 'Playfair Display';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  padding-bottom: 2px !important;
+}
+
+.banner{
+  display: flex;
+  padding: 0 5vw 5vw 5vw;
+  height: 85vh;
+  background-image: url("../assets/banner.jpg");
+  background-size: cover;
+  align-items: center;
+}
+
+.banner-title{
+  color: var(--white);
+  width: 50vw;
+}
+
+.banner p {
+  padding-bottom: 28px;
+}
+
+.content{
+  margin: 0 5vw;
+}
+
+.section{
+  display: flex;
+  width: 100%;
+  padding-top: 80px;
+  gap: 50px;
+}
+
+.section-img-left{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.section-img-right{
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sectionimg{
+  position: relative;
+  padding: 10px;
+  border: solid 2px hsla(51, 38%, 82%, 1)
+}
+
+.section-text{
+  width: 50%;
+}
+
+.section-text p{
+  padding-bottom: 28px;
+}
+
+.icon-card{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.card{
+  padding: 20px;
+  box-shadow: 0px 7px 29px rgba(100, 100, 111, 0.2);
+}
+
+.card p{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card img{
+  padding-bottom: 15px;
+}
+
+.locations{
+  margin-top: 80px;
+}
+
+.locations p{
+  text-align: center;
+}
+
+.locations h2{
+  text-align: center;
+}
+
+
+.location-card{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.lcard{
+  color: var(--white);
+  height: 400px;
+  width: 387px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.lcard p{
+  padding: 0 13px;
+}
+
+.lcard h3{
+  text-align: center;
+  margin: 0;
+}
+
+#lcard1{
+background-image: url("../assets/image 4.png");
+background-size: cover;
+}
+
+#lcard2{
+background-image: url("../assets/image 4-1.png");
+background-size: cover;
+}
+
+#lcard3{
+background-image: url("../assets/image 4-2.png");
+background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d

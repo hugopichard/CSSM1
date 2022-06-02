@@ -1,0 +1,42 @@
+@media only screen and (max-width: 767px) {
+
+.banner{
+  height: 30vh;
+}
+
+.banner-title{
+  width: 100vw;
+}
+
+.section{
+  flex-direction: column
+}
+
+.section-text{
+  width: 100%;
+}
+
+.section-img-right, .section-img-left{
+  width: 100%;
+  justify-content: center;
+}
+
+.sectionimg{
+  width: 100%
+
+}
+
+.icon-card{
+  flex-direction: column;
+}
+
+.location-card{
+  flex-direction: column;
+}
+
+.lcard{
+  width: 100%;
+  height: 800px;
+  margin-bottom: 30px;
+}
+    }
