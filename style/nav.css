@@ -27,3 +27,48 @@ nav a{
   align-items: flex-start;
   gap: 50px;
 }
+
+.burger-items{
+  display: none;
+}
+
+.mobile-menu{
+  display: none;
+  width:100vw;
+  height:100vh;
+  background: var(--white);
+  z-index: 100;
+  position: absolute;
+}
+
+.mobile-menu-items{
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menu-cross{
+  position: absolute;
+  right: 0;
+  padding: 30px;
+}
+
+.mobile-menu-items a{
+  text-decoration: none;
+  font-family: 'Work Sans';
+  font-weight: 500;
+  font-size: 40px;
+  color: var(--black);
+  padding-top: 30px;
+}
+
+.open{
+  display: block;
+}
+
+.no-overflow{
+  overflow: hidden;
+}
