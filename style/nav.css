@@ -21,6 +21,10 @@ nav a{
   padding-top: 7px;
 }
 
+nav a:hover{
+  text-decoration: underline;
+}
+
 .nav-items{
   display: flex;
   flex-direction: row;

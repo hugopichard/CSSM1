@@ -181,6 +181,16 @@ background-image: url("../assets/image 4-2.png");
 background-size: cover;
 }
 
+.map{
+  margin-top: 50px;
+  height: 50vh;
+}
+
+.map iframe{
+  filter: grayscale(100%) brightness(75%) saturate(0%);
+-webkit-filter: grayscale(100%) brightness(75%) saturate(0%);
+-moz-filter: grayscale(100%) brightness(75%) saturate(0%);
+}
 
 
 

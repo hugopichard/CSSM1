@@ -1,5 +1,5 @@
 footer{
-  margin-top: 128px;
+  margin-top: 0;
   background: var(--black);
   color: var(--white);
 }
@@ -59,10 +59,19 @@ footer a{
   font-size: 14px;
 }
 
+footer a:hover{
+    text-decoration: underline;
+}
+
 footer i {
+  transition: ease 1s;
   margin-right: 50px;
   margin-top: 15px;
   margin-bottom: 30px;
+}
+
+footer i:hover {
+  color: var(--blue);
 }
 
 .copyright{
